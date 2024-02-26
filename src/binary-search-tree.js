@@ -27,9 +27,9 @@ class BinarySearchTree {
     // remove line with error and write your code here
   }
 
-  find(/* data */) {
+  find( data) {
     throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+    return this.search(this.rootNode, data)
   }
 
   remove(/* data */) {
